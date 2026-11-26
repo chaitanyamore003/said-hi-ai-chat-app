@@ -15,7 +15,14 @@ import aiRouter from "./modules/routes/ai.routes.js";
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+  origin: process.env.FRONTEND_URL
+    ? process.env.FRONTEND_URL.replace(/\/$/, "")
+    : "http://localhost:5173",
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
 app.use(morgan("dev"));
 
 // Middleware
