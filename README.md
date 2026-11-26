@@ -1,7 +1,11 @@
 # Said Hi — AI-Powered Real-Time Chat Application
 
 <p align="center">
-  <img src="https://res.cloudinary.com/ddivlvrkv/image/upload/v1795674408/said_hi_logo_rjr2h1.png" alt="Said Hi Logo" width="250" />
+  <img 
+    src="https://res.cloudinary.com/ddivlvrkv/image/upload/r_100/v1795674408/said_hi_logo_rjr2h1.png" 
+    alt="Said Hi Logo" 
+    width="250" 
+  />
 </p>
 
 <p align="center">
